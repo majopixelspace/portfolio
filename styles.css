@@ -58,6 +58,7 @@ body {
 .deck {
   height: 100svh;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -558,9 +559,16 @@ body:not(.at-start) .hint, body.moved .hint { opacity: 0; }
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
   .pillars, .steps, .work { grid-template-columns: 1fr; }
-  .dots { right: .6rem; gap: .7rem; }
-  .dot__label { display: none; }
+  .explorer { grid-template-columns: 1fr; }
+  .dots { display: none; }
   .hint { display: none; }
+  .mk-field { gap: .6rem; }
+  .mk-input { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}
+
+@media (max-width: 560px) {
+  .featured__head { flex-direction: column; align-items: flex-start; gap: .25rem; }
+  .featured__head .case__sector { text-align: left; }
 }
 
 /* ---------- Accessibility: reduced motion ---------- */
