@@ -1,0 +1,6 @@
+# OS
+.DS_Store
+
+# Large source images — the site uses the optimized versions in images/web/
+/images/*.png
+/images/*.jpg

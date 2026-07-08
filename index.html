@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>María José Barrón · UX/UI Designer</title>
+  <meta name="description" content="A narrative portfolio: from software engineer to product designer who ships prototypes that actually work." />
+  <!-- Flags that JS is on, so we can reveal/animate without breaking the no-JS version -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="at-start">
+
+  <!-- Top progress bar -->
+  <div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+  <!-- Dot navigation (built with JS) -->
+  <nav class="dots" aria-label="Section navigation"></nav>
+
+  <!-- Counter -->
+  <div class="counter" aria-hidden="true">01 / 08</div>
+
+  <main class="deck">
+
+    <!-- 01 · HERO -->
+    <section class="slide slide--hero" data-label="Start" aria-label="Start">
+      <div class="slide__inner reveal">
+        <p class="eyebrow">María José Barrón · UX/UI Designer</p>
+        <h1 class="hero__title">
+          I design experiences.<br />
+          And now I <em>build</em> them, too.
+        </h1>
+        <p class="lead">
+          This isn't a catalog of screens. It's the story of how a software engineer
+          became a product designer — and started shipping prototypes that actually work.
+        </p>
+        <ul class="stats">
+          <li><b>6 yrs</b><span>designing products</span></li>
+          <li><b>4 countries</b><span>MX · US · CA · UK</span></li>
+          <li><b>Engineer</b><span>by training</span></li>
+          <li><b>In&#8209;code</b><span>AI prototyping</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 02 · WHO I AM -->
+    <section class="slide" data-label="Who I am" aria-label="Who I am">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">02</span> Who I am</p>
+        <h2 class="h2">Hey, I'm Majo — a designer with an engineer's hands.</h2>
+        <p class="lead">
+          My path from software engineering to design is where technology meets humanity —
+          and lately, it's where the two come back together.
+        </p>
+        <ol class="pillars">
+          <li>
+            <span class="num">01</span>
+            <h3>Human criteria</h3>
+            <p>Research, information architecture, accessibility — the details that make a product feel right, not just look right.</p>
+          </li>
+          <li>
+            <span class="num">02</span>
+            <h3>Engineering roots</h3>
+            <p>A software engineering degree. I speak the language of the teams I design with — and I never stopped.</p>
+          </li>
+          <li>
+            <span class="num">03</span>
+            <h3>AI + code</h3>
+            <p>I prototype directly in code with AI tools like Cursor and Claude Code — and hand off things that already run.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 03 · THE ARC -->
+    <section class="slide slide--tint" data-label="The arc" aria-label="The arc">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">03</span> The arc</p>
+        <h2 class="h2">From code, to design, and back again.</h2>
+        <ol class="steps">
+          <li>
+            <span class="steps__tag">Engineer</span>
+            <p>I studied software engineering. I learned to build — logic, systems, code — before I ever learned to design.</p>
+          </li>
+          <li>
+            <span class="steps__tag">Designer</span>
+            <p>I moved into UX/UI. For six years I've designed end‑to‑end products: research, IA, flows, high‑fidelity UI, and prototyping — across four countries.</p>
+          </li>
+          <li>
+            <span class="steps__tag">Both</span>
+            <p>The two halves met. I design <em>and</em> build, prototyping directly in code with AI. What I hand off isn't a mockup — it's something you can use.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 04 · HOW I WORK -->
+    <section class="slide" data-label="How I work" aria-label="How I work">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">04</span> How I work</p>
+        <h2 class="h2">AI moves fast. The design judgment stays mine.</h2>
+        <p class="lead">
+          I collaborate closely with product and engineering teams — shaping flows and information
+          architecture, running usability and accessibility reviews, turning findings into real changes.
+          Then I prototype in code with AI. For a studio, that means faster validation and less
+          back‑and‑forth between design and dev.
+        </p>
+        <ol class="flow">
+          <li><span class="num">01</span> Understand</li>
+          <li><span class="num">02</span> Design</li>
+          <li><span class="num">03</span> Build <em>with AI</em></li>
+          <li><span class="num">04</span> Iterate live</li>
+        </ol>
+        <ul class="tags">
+          <li>Product Design</li>
+          <li>UX Strategy</li>
+          <li>UI Design</li>
+          <li>Information Architecture</li>
+          <li>User Research</li>
+          <li>Accessibility</li>
+          <li>Prototyping</li>
+          <li>Design Systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 05 · INSIDE THE SYSTEM (interactive process exhibit) -->
+    <section class="slide slide--tint" data-label="Process" aria-label="Inside the system">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">05</span> Inside the system</p>
+        <h2 class="h2">Most design isn't a blank canvas.</h2>
+        <p class="lead">
+          The real work — most of it — is making the right call inside a system that already exists.
+          Here's a real exercise, abstracted: five ways to design one small component.
+          <strong>Click through them.</strong>
+        </p>
+
+        <div class="explorer" data-explorer>
+          <div class="explorer__opts" role="tablist" aria-label="Interaction patterns">
+            <button class="opt" type="button" role="tab" data-opt="both">Both shown</button>
+            <button class="opt" type="button" role="tab" data-opt="one">One at a time</button>
+            <button class="opt" type="button" role="tab" data-opt="button">Commit button</button>
+            <button class="opt" type="button" role="tab" data-opt="button-one">Button + one</button>
+            <button class="opt" type="button" role="tab" data-opt="toggle">Toggle bar <b class="opt__pick">my pick</b></button>
+          </div>
+          <div class="explorer__panel">
+            <div class="mock" data-mock aria-live="polite"></div>
+            <p class="explorer__note" data-note></p>
+          </div>
+        </div>
+
+        <p class="explorer__caption">
+          A real component, redrawn neutral — no client UI, no data. The judgment is the point.
+          (And yes — this is live, built in code.)
+        </p>
+      </div>
+    </section>
+
+    <!-- 06 · SELECTED WORK -->
+    <section class="slide" data-label="Selected" aria-label="Selected work">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">06</span> Selected work</p>
+        <h2 class="h2">Fewer screens. More stories.</h2>
+        <article class="featured">
+          <div class="featured__shot">
+            <img src="images/web/auri-cover.jpg" alt="Screens from the Auri case study — a dark, audio-first city guide" loading="lazy" draggable="false" style="object-position: center 63%;" />
+            <span class="featured__chip">Case study</span>
+          </div>
+          <div class="featured__body">
+            <header class="featured__head">
+              <h3>Auri</h3>
+              <span class="case__sector">Spatial audio · UK</span>
+            </header>
+            <p class="featured__tagline">“The best interface is the one you never have to look at.”</p>
+            <p class="featured__desc">A voice-first, geo-aware guide for the city — designed and built in Claude Code, from concept to a working, deployed prototype. It carries the lineage of Microsoft Soundscape.</p>
+            <a class="btn btn--case" href="auri-case-study.html" target="_blank" rel="noopener"
+               aria-label="View the full Auri case study (opens in a new tab)">View full case study →</a>
+          </div>
+        </article>
+
+        <article class="featured featured--alt">
+          <div class="featured__shot">
+            <img src="images/web/cirrus-cover.jpg" alt="Screens from the Cirrus Meeting AI case study" loading="lazy" draggable="false" style="object-position: center 14%;" />
+            <span class="featured__chip">Case study</span>
+          </div>
+          <div class="featured__body">
+            <header class="featured__head">
+              <h3>Cirrus — Meeting AI</h3>
+              <span class="case__sector">Sales intelligence · USA</span>
+            </header>
+            <p class="featured__tagline">“A salesperson's day doesn't fit in a table.”</p>
+            <p class="featured__desc">A schema-driven meeting workspace — before, during, and after the call. Prototyped as a clickable product in code, across six iteration blocks.</p>
+            <a class="btn btn--case" href="cirrus-meeting-ai-case-study.html" target="_blank" rel="noopener"
+               aria-label="View the full Cirrus case study (opens in a new tab)">View full case study →</a>
+          </div>
+        </article>
+
+        <p class="nda-note">Plus more under NDA — healthcare, real estate, social. The ones I can't screenshot are often the most interesting; I'll walk you through those live.</p>
+        <div class="clients">
+          <p class="clients__label">Also shaped products for</p>
+          <ul>
+            <li>Hootsuite</li>
+            <li>Prescryptive Health</li>
+            <li>HomeBuyMe</li>
+            <li>PSL Group</li>
+            <li>Nametag</li>
+            <li>Indoor Collective</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 · BEHIND THE SCREENS (real boards gallery, non-interactive) -->
+    <section class="slide slide--tint" data-label="The work" aria-label="Behind the screens">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">07</span> Behind the screens</p>
+        <h2 class="h2">A peek at how I actually work.</h2>
+        <p class="lead">
+          These are real boards from real projects — flows, states, and the many options I explore
+          before landing on one. A lot of this work lives under NDA, so I've kept it zoomed out on
+          purpose. Even from a distance, you can see the thinking that goes in.
+        </p>
+        <ul class="gallery">
+          <li class="gtile">
+            <img src="images/web/personal.jpg" alt="Zoomed-out board of a personal journaling app: design system and flow" loading="lazy" draggable="false" />
+            <span class="gtile__meta"><b>Personal project</b><i>Design system + flow</i></span>
+          </li>
+          <li class="gtile">
+            <img src="images/web/hootsuite.jpg" alt="Zoomed-out end-to-end flow map for a social media tool" loading="lazy" draggable="false" />
+            <span class="gtile__meta"><b>Social media</b><i>End-to-end flow map</i></span>
+          </li>
+          <li class="gtile">
+            <img src="images/web/nametag.jpg" alt="Zoomed-out onboarding matrix across four scenarios for an identity product" loading="lazy" draggable="false" />
+            <span class="gtile__meta"><b>Identity</b><i>Onboarding × 4 scenarios</i></span>
+          </li>
+          <li class="gtile">
+            <img src="images/web/indoor-collective.jpg" alt="Zoomed-out board of a fitness app: invitation states and options" loading="lazy" draggable="false" />
+            <span class="gtile__meta"><b>Fitness</b><i>States &amp; option sets</i></span>
+          </li>
+          <li class="gtile">
+            <img src="images/web/prescryptive.jpg" alt="Zoomed-out board of a healthcare app: UI options and flows" loading="lazy" draggable="false" />
+            <span class="gtile__meta"><b>Healthcare</b><i>UI options &amp; flows</i></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 08 · LET'S TALK -->
+    <section class="slide slide--cta" data-label="Let's talk" aria-label="Let's talk">
+      <div class="slide__inner reveal">
+        <p class="eyebrow"><span class="num">08</span> Let's talk</p>
+        <h2 class="h2 cta__title">Why not see it live?</h2>
+        <p class="lead">
+          The best way to understand how I work isn't a PDF. Give me an hour — I'll walk you
+          through real examples, and we'll build something together, in real time.
+        </p>
+        <p class="cta__actions">
+          <a class="btn" href="mailto:mjbolguin@gmail.com?subject=Let's%20book%20an%20hour">Book an hour →</a>
+        </p>
+        <p class="cta__contact">mjbolguin@gmail.com · linkedin.com/in/mjbolguin</p>
+        <p class="cta__ps">P.S. — this whole portfolio was designed and built by me, in code, with AI. No templates. It's the proof.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Keyboard hint (fades after first move) -->
+  <p class="hint" aria-hidden="true"><kbd>←</kbd> <kbd>→</kbd> or scroll</p>
+
+  <script src="deck.js"></script>
+</body>
+</html>
